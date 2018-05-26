@@ -1,0 +1,7 @@
+.about-info {
+  padding: 2em 1em;
+
+  @media (min-width: $mq-md) {
+    padding: 4em 2em;
+  }
+}

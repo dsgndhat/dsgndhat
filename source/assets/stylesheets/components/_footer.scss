@@ -1,0 +1,34 @@
+// footer
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2em;
+  padding-right: 2em;
+
+  @media (min-width: $mq-sm) {
+    flex-direction: row;
+  }
+
+  &__archive {
+    @include border-slide();
+
+    @extend %letter-spacing;
+  }
+
+  &__social {
+    display: flex;
+    margin-top: 1em;
+
+    list-style-type: none;
+
+    @media (min-width: $mq-sm) {
+      margin-top: 0;
+    }
+
+    & > *:not(:last-child) {
+      margin-right: 1em;
+    }
+  }
+}

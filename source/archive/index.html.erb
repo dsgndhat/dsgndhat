@@ -1,0 +1,24 @@
+---
+page_title: archives
+layout: page
+---
+
+<% blog('notes').articles.each do |article| %>
+  <% content_tag(:article, class: 'card', itemprop: 'blogPost', itemscope: 'itemscope', itemtype: 'http://schema.org/BlogPosting') do %>
+    <% link_to("#{article.url}", class: 'card__link', itemprop: 'url') do %>
+      <% content_tag(:div, class: 'card__img') do %>
+        <%= content_tag(:figure, nil, class: 'absolute-bg wow', style: "background-image: url('#{image_path(article.data.image_small)}');") %>
+      <% end %>
+      <% content_tag(:div, class: 'card__container') do %>
+        <%= content_tag(:h2, "#{article.data.page_title}", class: 'card__header', itemprop: 'name') %>
+        <% content_tag(:p, class: 'card__count', itemprop: 'datePublished', datetime: "#{article.data.date.strftime('%b %-d, %Y')}") do %>
+          <%= article.data.date.strftime('%b %-d, %Y') %>
+          <% if article.data.categories.size > 0 %>
+            in <%= article.data.categories %>
+          <% end %>
+        <% end %>
+        <%= content_tag(:span, 'read more', class: 'card__more') %>
+      <% end %>
+    <% end %>
+  <% end %>
+<% end %>

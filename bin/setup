@@ -1,0 +1,19 @@
+#!/usr/bin/env sh
+
+# run this script to setup the app
+
+# exit if any subcommand fails
+set -e
+
+# set up ruby dependencies
+if [ '$(gem query -i -n bundler)' = 'false' ]; then
+  echo 'Installing Bundler...'
+  gem install bundler
+fi
+
+echo 'Installing Ruby gem dependencies...'
+bundle check || bundle install
+
+# set up node dependencies
+echo 'Installing Node package dependencies...'
+yarn install

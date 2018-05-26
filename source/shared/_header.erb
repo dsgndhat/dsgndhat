@@ -1,0 +1,7 @@
+<header>
+    <ul class="tabs">
+      <li class="tabs__item <%= page_active?('/') %>"><%= link_to 'works', '/' %></li>
+      <li class="tabs__item <%= page_active?('/about/') %>"><%= link_to 'about', '/about' %></li>
+      <li class="tabs__item <%= page_active?('/notes/') %>"><%= link_to 'notes', '/notes' %></li>
+    </ul>
+</header>

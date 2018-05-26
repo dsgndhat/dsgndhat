@@ -1,0 +1,10 @@
+social:
+    - github:
+      icon: icon-github
+      social_link: "https://github.com/dsgndhat"
+    - twitter:
+      icon: icon-twitter
+      social_link: "https://twitter.com/dsgndhat"
+    - stackoverflow:
+      icon: icon-stackoverflow
+      social_link: "https://stackoverflow.com/users/8072963/dsgndhat"

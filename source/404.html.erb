@@ -1,0 +1,13 @@
+---
+page_title: page not found
+description: this is our 404 - page not found. if u reach this, you may be lost.
+layout: page
+image: error-dsgndhat.png
+---
+
+<% content_tag(:div, class: 'post', itemprop: 'articleBody') do %>
+  <% content_tag(:figure) do %>
+    <%= content_tag(:img, nil, src: "#{image_path(current_page.data.image)}", alt: '404 - not found') %>
+  <% end %>
+  <%= content_tag(:p, 'oooops. wrong page. better head back home. use the link on the top left.') %>
+<% end %>

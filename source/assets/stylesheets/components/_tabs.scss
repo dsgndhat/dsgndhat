@@ -1,0 +1,53 @@
+// tabs
+.tabs {
+  @extend %letter-spacing;
+
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+
+  list-style-type: none;
+
+  @media (min-width: $mq-md) {
+    padding-left: 8em;
+    padding-right: 8em;
+  }
+
+  @media (min-width: $mq-xxl) {
+    padding-left: 10em;
+    padding-right: 10em;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  &__item {
+    cursor: pointer;
+
+    &:not(.active) {
+      @include border-slide();
+    }
+
+    &.active {
+      border-bottom: 3px solid $color-alpha;
+    }
+
+    &.not-active {
+        pointer-events: none;
+        cursor: default;
+    }
+  }
+}
+
+.tab {
+
+  &.active {
+    will-change: opacity;
+    animation: fade-in 1s both;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+}

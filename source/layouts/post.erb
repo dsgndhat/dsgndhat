@@ -1,0 +1,20 @@
+<% wrap_layout :core do %>
+  <% content_tag(:article, itemprop: 'blogPost', itemscope: 'itemscope', itemtype: 'http://schema.org/BlogPosting') do %>
+
+    <%= partial 'shared/header-post' %>
+
+    <% content_tag(:section, class: 'section-padding bg-grey', itemprop: 'articleBody') do %>
+      <% content_tag(:div, class: 'post') do %>
+        <%= yield %>
+      <% end %>
+    <% end %>
+
+    <% content_tag(:section, class: 'profile') do %>
+      <%= partial 'shared/profile-post' %>
+    <% end %>
+
+  <% end %>
+
+  <%= partial 'shared/pagination-post' %>
+  <%= partial 'shared/footer' %>
+<% end %>

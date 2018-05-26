@@ -1,0 +1,9 @@
+<% wrap_layout :core do %>
+  <% content_tag(:section, class: 'archives', itemscope: 'itemscope', itemtype: 'http://schema.org/Blog') do %>
+    <%= partial 'shared/header-page' %>
+    <% content_tag(:div, class: 'section-padding archives__container') do %>
+      <%= yield %>
+    <% end %>
+  <% end %>
+  <%= partial 'shared/footer' %>
+<% end %>

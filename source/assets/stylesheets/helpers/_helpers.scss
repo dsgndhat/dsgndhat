@@ -1,0 +1,37 @@
+/**
+ * Absolute Background Cover
+ */
+.absolute-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 100%;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.absolute-bg--about { background-color: $color-green; }
+.absolute-bg--blog { background-color: $color-orange; }
+.absolute-bg--,
+.absolute-bg--works {
+    background-color: $color-red;
+}
+
+/**
+ * Color Helpers
+ */
+.bg-black {
+  background-color: $color-black;
+}
+
+.bg-grey {
+  background-color: $color-grey;
+}
+
+.bg-white {
+  background-color: $color-white;
+}

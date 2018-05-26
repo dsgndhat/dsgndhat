@@ -1,0 +1,16 @@
+<ul class="cards">
+  <% items.each do |i| %>
+    <% content_tag(:li, class: 'card') do %>
+      <% link_to("#{i.url}", { class: 'card__link', target: '_blank' }) do %>
+        <% content_tag(:div, class: 'card__img') do %>
+          <%= content_tag(:figure, nil, class: 'absolute-bg', style: "background-image: url('#{image_path(i.image)}');") %>
+        <% end %>
+        <% content_tag(:div, class: 'card__container') do %>
+          <%= content_tag(:h2, "#{i.name}", class: 'card__header') %>
+          <%= content_tag(:span, 'view work', class: 'card__more') %>
+        <% end %>
+      <% end %>
+    <% end %>
+  <% end %>
+</ul>
+<%= partial 'shared/footer' %>

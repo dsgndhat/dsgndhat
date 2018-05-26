@@ -1,0 +1,15 @@
+    <header class="section-padding--lg mast rellax" data-rellax-speed="-4">
+      <% link_to('/notes', class: 'nav nav--white') do %>
+        <%= content_tag(:i, nil, class: 'icon-left-thin') %>
+        <%= content_tag(:span, 'Back to Notes') %>
+      <% end %>
+      <%= content_tag(:figure, nil, class: 'absolute-bg mast__img', style: "background-image: url('#{image_path(current_article.data.image)}');") %>
+      <% content_tag(:div, class: 'mast__container') do %>
+        <% content_tag(:span) do %>
+          <%= content_tag(:time, "#{current_article.date.strftime('%b %-d, %Y')}", datetime: "#{current_article.date.strftime('%b %-d, %Y')}", itemprop: 'datePublished') %>
+        <% end %>
+        <%= content_tag(:h1, "#{current_article.data.page_title}", itemprop: 'name headline') %>
+        <%= content_tag(:span, "Time: #{reading_time(current_article.body)}") %>
+        <%= content_tag(:span) %>
+      <% end %>
+    </header>

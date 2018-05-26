@@ -1,0 +1,12 @@
+<% wrap_layout :core do %>
+  <% content_tag(:section, class: 'previews') do %>
+    <%= partial 'shared/previews' %>
+
+    <% content_tag(:div) do %>
+      <%= partial 'shared/header' %>
+      <% content_tag(:div, class: 'tab') do %>
+        <%= yield %>
+      <% end %>
+    <% end %>
+  <% end %>
+<% end %>

@@ -1,0 +1,123 @@
+.highlight pre {
+  background: #282828;
+  font-family: $font-body;
+  margin-bottom: 1.5em;
+  padding: 1em;
+  white-space: pre;
+  overflow-x: auto;
+  word-break: inherit;
+  word-wrap: inherit;
+
+  code {
+    font-family: $font-body;
+    word-wrap: normal;
+    word-break: normal;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    tab-size: 4;
+    hyphens: none;
+  }
+}
+
+pre code {
+    overflow-x: auto;
+    display: block;
+    padding: 24px;
+    margin-bottom: 8px;
+}
+
+.highlight .gl {
+  background: #282828;
+  border-right: 1px solid #fbf1c7;
+  color: #fbf1c7;
+  user-select: none;
+  padding: 8px 15px;
+  overflow: hidden;
+}
+
+.highlight .hll {
+    background-color: #282828;
+}
+.highlight, .highlight .w, .gist-syntax .highlight, .gist-syntax .highlight .w {
+    color: #fbf1c7;
+    background-color: #282828;
+}
+.highlight .err, .gist-syntax .highlight .err {
+    color: #fb4934;
+    background-color: #282828;
+    font-weight: bold;
+}
+.highlight .c, .gist-syntax .highlight .c, .highlight .cd, .gist-syntax .highlight .cd, .highlight .cm, .gist-syntax .highlight .cm, .highlight .c1, .gist-syntax .highlight .c1, .highlight .cs, .gist-syntax .highlight .cs {
+  color: #928374;
+  font-style: italic;
+}
+.highlight .cp, .gist-syntax .highlight .cp {
+  color: #8ec07c;
+}
+.highlight .nt, .gist-syntax .highlight .nt {
+  color: #fb4934;
+}
+.highlight .o, .gist-syntax .highlight .o, .highlight .ow, .gist-syntax .highlight .ow {
+  color: #fbf1c7;
+}
+.highlight .p, .gist-syntax .highlight .p, .highlight .pi, .gist-syntax .highlight .pi {
+  color: #fbf1c7;
+}
+.highlight .gi, .gist-syntax .highlight .gi {
+  color: #b8bb26;
+  background-color: #282828;
+}
+.highlight .gd, .gist-syntax .highlight .gd {
+  color: #fb4934;
+  background-color: #282828;
+}
+.highlight .gh, .gist-syntax .highlight .gh {
+  color: #b8bb26;
+  font-weight: bold;
+}
+.highlight .k, .gist-syntax .highlight .k, .highlight .kn, .gist-syntax .highlight .kn, .highlight .kp, .gist-syntax .highlight .kp, .highlight .kr, .gist-syntax .highlight .kr, .highlight .kv, .gist-syntax .highlight .kv {
+  color: #fb4934;
+}
+.highlight .kc, .gist-syntax .highlight .kc {
+  color: #d3869b;
+}
+.highlight .kt, .gist-syntax .highlight .kt {
+  color: #fabd2f;
+}
+.highlight .kd, .gist-syntax .highlight .kd {
+  color: #fe8019;
+}
+.highlight .s, .gist-syntax .highlight .s, .highlight .sb, .gist-syntax .highlight .sb, .highlight .sc, .gist-syntax .highlight .sc, .highlight .sd, .gist-syntax .highlight .sd, .highlight .s2, .gist-syntax .highlight .s2, .highlight .sh, .gist-syntax .highlight .sh, .highlight .sx, .gist-syntax .highlight .sx, .highlight .s1, .gist-syntax .highlight .s1 {
+  color: #b8bb26;
+  font-style: italic;
+}
+.highlight .si, .gist-syntax .highlight .si {
+  color: #b8bb26;
+  font-style: italic;
+}
+.highlight .sr, .gist-syntax .highlight .sr {
+  color: #b8bb26;
+  font-style: italic;
+}
+.highlight .se, .gist-syntax .highlight .se {
+  color: #fe8019;
+}
+.highlight .nn, .gist-syntax .highlight .nn {
+  color: #8ec07c;
+}
+.highlight .nc, .gist-syntax .highlight .nc {
+  color: #8ec07c;
+}
+.highlight .no, .gist-syntax .highlight .no {
+  color: #d3869b;
+}
+.highlight .na, .gist-syntax .highlight .na {
+  color: #b8bb26;
+}
+.highlight .m, .gist-syntax .highlight .m, .highlight .mf, .gist-syntax .highlight .mf, .highlight .mh, .gist-syntax .highlight .mh, .highlight .mi, .gist-syntax .highlight .mi, .highlight .il, .gist-syntax .highlight .il, .highlight .mo, .gist-syntax .highlight .mo, .highlight .mb, .gist-syntax .highlight .mb, .highlight .mx, .gist-syntax .highlight .mx {
+  color: #d3869b;
+}
+.highlight .ss, .gist-syntax .highlight .ss {
+  color: #83a598;
+}

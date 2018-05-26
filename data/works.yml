@@ -1,0 +1,16 @@
+projects:
+    - name: dhat team
+      image: works/dsgndhat-crud-flask-app.jpg
+      url: https://github.com
+
+    - name: vue newz
+      image: works/vuejs-newz-dsgndhat.jpg
+      url: https://github.com
+
+    - name: muse
+      image: works/rails-dsgndhat-dhat-board.jpg
+      url: https://github.com
+
+    - name: nodejs api
+      image: works/nodejs-api-dsgndhat.jpg
+      url: https://github.com

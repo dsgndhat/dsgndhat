@@ -1,0 +1,83 @@
+// works card
+.cards {
+  @include flex-grid(1, 2, $xxl: 3, $pad: .25em);
+
+  padding: 2em 1em;
+
+  list-style-type: none;
+
+  @media (min-width: $mq-md) {
+    padding: 4em 2em;
+  }
+}
+
+.card {
+
+  &__link {
+    @include box-shadow(1px);
+
+    position: relative;
+
+    display: block;
+
+    background-color: $color-white;
+    transition: background-color .2s ease-in-out;
+
+    &:after {
+      @include box-shadow(3px);
+
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      height: 100%;
+      width: 100%;
+
+      opacity: 0;
+      will-change: opacity;
+      transition: opacity .4s ease-in-out;
+    }
+
+    &:hover {
+      background-color: $color-alpha--light;
+
+      &:after {
+        opacity: 1;
+      }
+
+      .card__more {
+        box-shadow: inset 175px 0 0 0 $color-alpha;
+        color: $color-white;
+      }
+    }
+  }
+
+  &__img {
+    position: relative;
+
+    height: 12em;
+
+    background-color: $color-black;
+
+    &:after {
+      @extend %overlay;
+    }
+  }
+
+  &__container {
+    padding: 2em 1em;
+  }
+
+  &__header {
+    color: $color-alpha;
+  }
+
+  &__count {
+    color: $color-black;
+  }
+
+  &__more {
+    @include button-slide(.25em);
+  }
+}

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+zip -r website.zip build
+
+curl -H "Content-Type: application/zip" \
+     -H "Authorization: Bearer 556fea2dbd42284a74c075688416e7461e131e95b1768c247abca1e5fad290dc" \
+     --request POST --data-binary "@website.zip" \
+     https://api.netlify.com/api/v1/sites/dsgndhat.netlify.com/deploys

@@ -1,0 +1,12 @@
+<% if paginate && num_pages > 1 %>
+  <% content_tag(:div, class: 'pagination') do %>
+    <% if prev_page %>
+      <%= link_to 'Previous', prev_page %>
+    <% end %>
+
+    <% if next_page %>
+      <%= link_to 'Next', next_page %>
+    <% end %>
+  <% end %>
+<% end %>
+

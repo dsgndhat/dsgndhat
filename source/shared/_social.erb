@@ -1,0 +1,3 @@
+    <% social.each do |s| %>
+      <%= content_tag(:li, link_to(nil, "#{s.social_link}", class: "#{s.icon}", target: '_blank')) %>
+    <% end %>

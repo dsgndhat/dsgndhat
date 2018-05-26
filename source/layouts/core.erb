@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html itemscope='' itemtype='http://schema.org/WebPage' lang='<%= data.site.language %>'>
+  <head>
+    <%= partial 'shared/meta_tags' %>
+
+    <%= partial 'shared/favicons' %>
+
+    <!-- styles -->
+    <%= partial 'shared/styles' %>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <% content_tag(:main) do %>
+      <%= yield %>
+    <% end %>
+    <%= partial 'shared/scripts' %>
+  </body>
+</html>

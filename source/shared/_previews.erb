@@ -1,0 +1,11 @@
+    <% content_tag(:div) do %>
+      <%= content_tag(:figure, nil, class: "absolute-bg absolute-bg--#{current_page.data.theme}") %>
+      <% content_tag(:div, class: 'previews__container') do %>
+        <%= content_tag(:span, "#{current_page.data.tagline}", itemprop: 'name headline') %>
+        <% if current_page.url == '/' %>
+          <%= content_tag(:h1, "#{data.site.name}")%>
+        <% else %>
+          <%= content_tag(:h1, "#{current_page.data.page_title}", itemprop: 'name headline') %>
+        <% end %>
+      <% end %>
+    <% end %>
