@@ -1,14 +1,12 @@
-# Ignore bundler config.
+# Ignore bundler config
 /.bundle
 
-# Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
-!/log/.keep
-!/tmp/.keep
+# Ignore the build directory
+/build
 
-/node_modules/
-/yarn-error.log
-/public/assets/
+# Ignore cache
+/.sass-cache
+/.cache
 
-.byebug_history
+node_modules
+.tmp

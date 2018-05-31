@@ -51,46 +51,16 @@ activate :blog do |blog|
   blog.page_link = 'page/{num}'
 end
 
+# tell Middleman to ignore the template
+ignore '/templates/*'
+
+activate :pagination
+
 # proxy projects aka works items
-# data.works.projects.each do |project|
-#  proxy '/works/#{project.path}/.html', '/works/works-list.html', locals: {
-#    project: project,
-#    work_pages: data.works.projects,
-#    path: 'works'
-#  }, ignore: true
-# end
-
-# production
-configure :build do
-  activate :external_pipeline,
-           name: :gulp,
-           command: 'yarn prod',
-           source: 'dist',
-           latency: 1
-
-  ignore 'assets/javascripts/app.js'
-  ignore 'assets/stylesheets/app'
-
-  activate :gzip
-
-  activate :minify_html do |html|
-    html.remove_quotes = false
-    html.remove_intertag_spaces = true
+data.works.projects.each do |data|
+  data.projects.each do |project|
+    proxy '/works/#{project.path}/.html', '/templates/works-list.html', locals: { project: project }
   end
 
-  activate :favicon_maker, :icons => {
-    '_favicon_template.png' => [
-      { icon: 'apple-touch-icon-180x180-precomposed.png' },
-      { icon: 'apple-touch-icon-152x152-precomposed.png' },
-      { icon: 'apple-touch-icon-144x144-precomposed.png' },
-      { icon: 'apple-touch-icon-114x114-precomposed.png' },
-      { icon: 'apple-touch-icon-72x72-precomposed.png' },
-      { icon: 'apple-touch-icon-precomposed.png', size: '57x57' },
-      { icon: 'apple-touch-icon.png', size: '57x57' },
-      { icon: 'favicon-32x32.png' },
-      { icon: 'favicon.png', size: '16x16' },
-      { icon: 'favicon.ico', size: '64x64,32x32,24x24,16x16' },
-      { icon: 'mstile-150x150.png', size: '150x150' },
-    ]
-  }
+  paginate data.projects.sort_by(), '/works', '/templates/works-list.html', suffix: '/page/:num/index', per_page: 10
 end

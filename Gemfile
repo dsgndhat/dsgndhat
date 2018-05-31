@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gem 'middleman', '~> 4.2'
 gem 'middleman-blog'
 gem 'middleman-favicon-maker', '~> 4.0'
+gem 'middleman-paginate'
 gem 'middleman-minify-html', '~> 3.4'
 gem 'middleman-protect-emails'
 gem 'middleman-syntax'
@@ -16,7 +17,7 @@ gem 'sass'
 # deploy
 # gem 'middleman-s3_sync', '~> 4.0'
 
-gem 'nokogiri', '~> 1.8'
+gem 'oga'
 
 # debugging
 gem 'middleman-pry', '~> 1.0'

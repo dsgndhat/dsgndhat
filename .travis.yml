@@ -8,8 +8,10 @@ before_install:
   - yarn install
 cache:
   yarn: true
-script: 'yarn prod'
-
-#after_success:
-#  - chmod +x ./publish.sh
-#  - ./publish.sh
+script: yarn prod
+after_success:
+  - chmod +x ./bin/publish.sh
+  - './bin/publish.sh'
+env:
+  matrix:
+    secure: KrhiKS/58rgWncAIOdwDXsnFkRkfGXsvkr6KqAnMRk0am+jRDoaP8nRzBxoR8FCWwDLpWIdJrZWWmMhsKP3HazG/xpbREBmWU4WRSLWfkOBGDufhpb+y2E87Zb7KAmaCTVMfSyJli/qVyZn/JI5NmCKTs7VS3vQmGW1w/hpo/gJUahmubI4VPo5FpyqziPrisUfaddKHmzoGWjXBSw0osU05bUpSnqTTM5olAdqsfL6YfWaCyvX4eWZoWp1NJ0IM+bNUw0HOjRVRoMZvV2rKiL+jOp8nn8mNFi/mguoLMtVI9/PfM2XmFYwRyskTgiuW18pM2Y0qSmnxDHARw6XrbTR1hmSwqN10qGcTQUsnTBh0eKI6sSclF1PxHFTKjKJtY8f6KpWB1DTSsae0PcKPqaRMSlpgAKqIYPQ53leS0ANrFDDhGtKrt4Emiy1M22jCKEPn7IRg0OUlItwN7CXE/+aLbT3aJiDaUbVI5EYJS6D+/44Mx9LOrnXi4W8Y6fXjohp+cBWP6yCJzxPu8HEy7sEFDlDrg+J5P+oJJkhGI5fXALL0/ENH9MWrIR0rqyCgJDDoohQXjfYeQv2cMlHgbJw+aiI4lYNAQmucqn7G/Q9yYAEkZdcF/h0QwNcoLUmk/RHVyoT88rHAsZecAmBsoDmmVqSONeIwaW6GXUyX7KU=
