@@ -43,6 +43,7 @@ describe('getEnabledTasks', function() {
     describe('#codeTasks', function() {
       beforeEach(function() {
         TASK_CONFIG = {
+          html: true,
           stylesheets: true,
           javascripts: true
         }
@@ -50,7 +51,7 @@ describe('getEnabledTasks', function() {
 
       it('returns all except javascripts when none disabled', function() {
         var tasks = getEnabledTasks(ENV)
-        assert.deepEqual(tasks.codeTasks, ['stylesheets'])
+        assert.deepEqual(tasks.codeTasks, ['html', 'stylesheets'])
       })
 
       it('returns only enabled except javascripts task when some disabled', function() {

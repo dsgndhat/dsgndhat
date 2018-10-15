@@ -1,21 +1,18 @@
 <!DOCTYPE HTML>
-<html itemscope='' itemtype='http://schema.org/WebPage' lang='<%= data.site.language %>'>
+<html itemscope='' itemtype='http://schema.org/WebPage' lang='<%= data.settings.settings.i18n %>'>
   <head>
-    <%= partial 'shared/meta_tags' %>
-
-    <%= partial 'shared/favicons' %>
-
-    <!-- styles -->
-    <%= partial 'shared/styles' %>
+    <%= partial 'layouts/shared/meta_tags' %>
+    <%= partial 'layouts/shared/favicons' %>
+    <%= stylesheet_link_tag 'app' %>
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
-
-  <body>
+  <% content_tag(:body, class: 'page_classes') do %>
     <% content_tag(:main) do %>
       <%= yield %>
     <% end %>
-    <%= partial 'shared/scripts' %>
-  </body>
+    <%= partial 'layouts/shared/scripts' %>
+    <%= javascript_include_tag 'app' %>
+  <% end %>
 </html>

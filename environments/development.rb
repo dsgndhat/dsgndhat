@@ -2,5 +2,5 @@
 activate :external_pipeline,
          name: :gulp,
          command: 'yarn dev',
-         source: 'dist',
+         source: 'build',
          latency: 1

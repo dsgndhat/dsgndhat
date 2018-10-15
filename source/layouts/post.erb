@@ -1,7 +1,7 @@
 <% wrap_layout :core do %>
   <% content_tag(:article, itemprop: 'blogPost', itemscope: 'itemscope', itemtype: 'http://schema.org/BlogPosting') do %>
 
-    <%= partial 'shared/header-post' %>
+    <%= partial 'layouts/shared/header-post' %>
 
     <% content_tag(:section, class: 'section-padding bg-grey', itemprop: 'articleBody') do %>
       <% content_tag(:div, class: 'post') do %>
@@ -10,11 +10,10 @@
     <% end %>
 
     <% content_tag(:section, class: 'profile') do %>
-      <%= partial 'shared/profile-post' %>
+      <%= partial 'layouts/shared/profile-post' %>
     <% end %>
-
   <% end %>
 
-  <%= partial 'shared/pagination-post' %>
-  <%= partial 'shared/footer' %>
+  <%= partial 'layouts/shared/pagination-post' %>
+  <%= partial 'layouts/shared/footer' %>
 <% end %>

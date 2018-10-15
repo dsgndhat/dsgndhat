@@ -1,12 +1,7 @@
-# Use this file for production-specific deployment configs.
+# use this file for production-specific deployment configs.
 # https://middlemanapp.com/basics/upgrade-v4/#environments-and-changes-to-configure-blocks
 
-# activate :asset_hash
-# activate :asset_host, host: "//<your-cloudfront-domain>.cloudfront.net"
-
-# https://github.com/Aupajo/middleman-search_engine_sitemap
-# set :url_root, "http://example.com"
-# activate :search_engine_sitemap
+activate :asset_hash
 
 # https://github.com/fredjean/middleman-s3_sync
 # activate :s3_sync do |s3|

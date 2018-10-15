@@ -2,6 +2,6 @@
 module WorksHelpers
   def page_works
     works = current_page.data.works
-    data.works.send(works)
+    data.pages.works.send(works)
   end
 end

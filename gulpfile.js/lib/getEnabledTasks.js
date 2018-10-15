@@ -1,7 +1,7 @@
 var compact = require('lodash/compact')
 var isEmpty = require('lodash/isEmpty')
 
-// grouped by what can run in parallel
+// Grouped by what can run in parallel
 var assetTasks = ['fonts', 'iconFont', 'images', 'svgSprite']
 var codeTasks = ['stylesheets', 'javascripts']
 

@@ -1,5 +1,5 @@
 ---
-page_title: archives
+title: archives
 layout: page
 ---
 
@@ -10,9 +10,9 @@ layout: page
         <%= content_tag(:figure, nil, class: 'absolute-bg wow', style: "background-image: url('#{image_path(article.data.image_small)}');") %>
       <% end %>
       <% content_tag(:div, class: 'card__container') do %>
-        <%= content_tag(:h2, "#{article.data.page_title}", class: 'card__header', itemprop: 'name') %>
+        <%= content_tag(:h2, "#{article.title}", class: 'card__header', itemprop: 'name') %>
         <% content_tag(:p, class: 'card__count', itemprop: 'datePublished', datetime: "#{article.data.date.strftime('%b %-d, %Y')}") do %>
-          <%= article.data.date.strftime('%b %-d, %Y') %>
+          <%= article.date.strftime('%b %-d, %Y') %>
           <% if article.data.categories.size > 0 %>
             in <%= article.data.categories %>
           <% end %>

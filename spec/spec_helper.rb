@@ -1,12 +1,12 @@
-require "rspec"
-require "capybara/rspec"
-require "middleman-core"
-require "middleman-core/rack"
-# require "middleman-s3_sync"
-# require "middleman-pry"
+require 'rspec'
+require 'capybara/rspec'
+require 'middleman-core'
+require 'middleman-core/rack'
+# require 'middleman-s3_sync'
+# require 'middleman-pry'
 
 middleman_app = ::Middleman::Application.new do
-  set :root, File.expand_path(File.join(File.dirname(__FILE__), ".."))
+  set :root, File.expand_path(File.join(File.dirname(__FILE__), '..'))
   set :environment, :test
   set :show_exceptions, true
 end

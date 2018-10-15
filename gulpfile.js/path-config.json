@@ -1,6 +1,12 @@
 {
   "src": "./source",
-  "dest": "./.tmp/dist",
+  "dest": "./build",
+
+  "html": {
+    "src": "./buld",
+    "dest": "./build",
+    "extensions": "['html', 'json', 'erb', 'haml']"
+  },
 
   "static": {
     "src": "static",
@@ -30,5 +36,9 @@
   "icons": {
     "src": "assets/icons",
     "dest": "assets/images"
+  },
+
+  "sw": {
+    "dest":"./build/sw.js"
   }
 }

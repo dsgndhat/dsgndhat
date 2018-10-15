@@ -1,0 +1,406 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+.about-info	dist/assets/stylesheets/app.css.css	/^    .about-info {$/;"	c
+.about-info	dist/assets/stylesheets/app.css.css	/^.about-info {$/;"	c
+.about-info	source/assets/stylesheets/components/_about.scss	/^.about-info {$/;"	c
+.absolute-bg	dist/assets/stylesheets/app.css.css	/^.absolute-bg {$/;"	c
+.absolute-bg	source/assets/stylesheets/helpers/_helpers.scss	/^.absolute-bg {$/;"	c
+.absolute-bg--	dist/assets/stylesheets/app.css.css	/^.absolute-bg--,$/;"	c
+.absolute-bg--	source/assets/stylesheets/helpers/_helpers.scss	/^.absolute-bg--,$/;"	c
+.absolute-bg--about	dist/assets/stylesheets/app.css.css	/^.absolute-bg--about {$/;"	c
+.absolute-bg--about	source/assets/stylesheets/helpers/_helpers.scss	/^.absolute-bg--about { background-color: $color-green; }$/;"	c
+.absolute-bg--blog	dist/assets/stylesheets/app.css.css	/^.absolute-bg--blog {$/;"	c
+.absolute-bg--blog	source/assets/stylesheets/helpers/_helpers.scss	/^.absolute-bg--blog { background-color: $color-orange; }$/;"	c
+.absolute-bg--works	dist/assets/stylesheets/app.css.css	/^.absolute-bg--works {$/;"	c
+.absolute-bg--works	source/assets/stylesheets/helpers/_helpers.scss	/^.absolute-bg--works {$/;"	c
+.archives	source/assets/stylesheets/components/_archives.scss	/^.archives {$/;"	c
+.archives__container	dist/assets/stylesheets/app.css.css	/^      .archives__container > * {$/;"	c
+.archives__container	dist/assets/stylesheets/app.css.css	/^  .archives__container > * {$/;"	c
+.archives__container	dist/assets/stylesheets/app.css.css	/^.archives__container {$/;"	c
+.archives__header	dist/assets/stylesheets/app.css.css	/^  .archives__header span {$/;"	c
+.archives__header	dist/assets/stylesheets/app.css.css	/^.archives__header {$/;"	c
+.bg-black	dist/assets/stylesheets/app.css.css	/^.bg-black {$/;"	c
+.bg-black	source/assets/stylesheets/helpers/_helpers.scss	/^.bg-black {$/;"	c
+.bg-grey	dist/assets/stylesheets/app.css.css	/^.bg-grey {$/;"	c
+.bg-grey	source/assets/stylesheets/helpers/_helpers.scss	/^.bg-grey {$/;"	c
+.bg-white	dist/assets/stylesheets/app.css.css	/^.bg-white {$/;"	c
+.bg-white	source/assets/stylesheets/helpers/_helpers.scss	/^.bg-white {$/;"	c
+.card	source/assets/stylesheets/components/_works.scss	/^.card {$/;"	c
+.card__container	dist/assets/stylesheets/app.css.css	/^.card__container {$/;"	c
+.card__count	dist/assets/stylesheets/app.css.css	/^.card__count {$/;"	c
+.card__header	dist/assets/stylesheets/app.css.css	/^.card__header {$/;"	c
+.card__img	dist/assets/stylesheets/app.css.css	/^.card__img {$/;"	c
+.card__link	dist/assets/stylesheets/app.css.css	/^    .card__link:hover .card__more {$/;"	c
+.card__link	dist/assets/stylesheets/app.css.css	/^    .card__link:hover:after {$/;"	c
+.card__link	dist/assets/stylesheets/app.css.css	/^  .card__link:after {$/;"	c
+.card__link	dist/assets/stylesheets/app.css.css	/^  .card__link:hover {$/;"	c
+.card__link	dist/assets/stylesheets/app.css.css	/^.card__link {$/;"	c
+.card__more	dist/assets/stylesheets/app.css.css	/^.card__more {$/;"	c
+.card__more	source/assets/stylesheets/components/_works.scss	/^      .card__more {$/;"	c
+.cards	dist/assets/stylesheets/app.css.css	/^      .cards > * {$/;"	c
+.cards	dist/assets/stylesheets/app.css.css	/^    .cards {$/;"	c
+.cards	dist/assets/stylesheets/app.css.css	/^  .cards > * {$/;"	c
+.cards	dist/assets/stylesheets/app.css.css	/^.cards {$/;"	c
+.cards	source/assets/stylesheets/components/_works.scss	/^.cards {$/;"	c
+.fade-in	dist/assets/stylesheets/app.css.css	/^.fade-in {$/;"	c
+.fade-in	source/assets/stylesheets/helpers/_animations.scss	/^.fade-in {$/;"	c
+.footer	dist/assets/stylesheets/app.css.css	/^    .footer {$/;"	c
+.footer	dist/assets/stylesheets/app.css.css	/^.footer {$/;"	c
+.footer	source/assets/stylesheets/components/_footer.scss	/^.footer {$/;"	c
+.footer__archive	dist/assets/stylesheets/app.css.css	/^    .footer__archive:after {$/;"	c
+.footer__archive	dist/assets/stylesheets/app.css.css	/^    .footer__archive:hover:after {$/;"	c
+.footer__archive	dist/assets/stylesheets/app.css.css	/^  .footer__archive {$/;"	c
+.footer__social	dist/assets/stylesheets/app.css.css	/^      .footer__social {$/;"	c
+.footer__social	dist/assets/stylesheets/app.css.css	/^    .footer__social > *:not(:last-child) {$/;"	c
+.footer__social	dist/assets/stylesheets/app.css.css	/^  .footer__social {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^  .highlight pre code {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .c, .gist-syntax .highlight .c, .highlight .cd, .gist-syntax .highlight .cd, .highlight .cm, .gist-syntax .highlight .cm, .highlight .c1, .gist-syntax .highlight .c1, .highlight .cs, .gist-syntax .highlight .cs {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .cp, .gist-syntax .highlight .cp {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .err, .gist-syntax .highlight .err {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .gd, .gist-syntax .highlight .gd {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .gh, .gist-syntax .highlight .gh {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .gi, .gist-syntax .highlight .gi {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .gl {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .hll {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .k, .gist-syntax .highlight .k, .highlight .kn, .gist-syntax .highlight .kn, .highlight .kp, .gist-syntax .highlight .kp, .highlight .kr, .gist-syntax .highlight .kr, .highlight .kv, .gist-syntax .highlight .kv {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .kc, .gist-syntax .highlight .kc {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .kd, .gist-syntax .highlight .kd {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .kt, .gist-syntax .highlight .kt {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .m, .gist-syntax .highlight .m, .highlight .mf, .gist-syntax .highlight .mf, .highlight .mh, .gist-syntax .highlight .mh, .highlight .mi, .gist-syntax .highlight .mi, .highlight .il, .gist-syntax .highlight .il, .highlight .mo, .gist-syntax .highlight .mo, .highlight .mb, .gist-syntax .highlight .mb, .highlight .mx, .gist-syntax .highlight .mx {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .na, .gist-syntax .highlight .na {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .nc, .gist-syntax .highlight .nc {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .nn, .gist-syntax .highlight .nn {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .no, .gist-syntax .highlight .no {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .nt, .gist-syntax .highlight .nt {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .o, .gist-syntax .highlight .o, .highlight .ow, .gist-syntax .highlight .ow {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .p, .gist-syntax .highlight .p, .highlight .pi, .gist-syntax .highlight .pi {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .s, .gist-syntax .highlight .s, .highlight .sb, .gist-syntax .highlight .sb, .highlight .sc, .gist-syntax .highlight .sc, .highlight .sd, .gist-syntax .highlight .sd, .highlight .s2, .gist-syntax .highlight .s2, .highlight .sh, .gist-syntax .highlight .sh, .highlight .sx, .gist-syntax .highlight .sx, .highlight .s1, .gist-syntax .highlight .s1 {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .se, .gist-syntax .highlight .se {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .si, .gist-syntax .highlight .si {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .sr, .gist-syntax .highlight .sr {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight .ss, .gist-syntax .highlight .ss {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight pre {$/;"	c
+.highlight	dist/assets/stylesheets/app.css.css	/^.highlight, .highlight .w, .gist-syntax .highlight, .gist-syntax .highlight .w {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .c, .gist-syntax .highlight .c, .highlight .cd, .gist-syntax .highlight .cd, .highlight .cm, .gist-syntax .highlight .cm, .highlight .c1, .gist-syntax .highlight .c1, .highlight .cs, .gist-syntax .highlight .cs {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .cp, .gist-syntax .highlight .cp {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .err, .gist-syntax .highlight .err {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .gd, .gist-syntax .highlight .gd {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .gh, .gist-syntax .highlight .gh {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .gi, .gist-syntax .highlight .gi {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .gl {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .hll {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .k, .gist-syntax .highlight .k, .highlight .kn, .gist-syntax .highlight .kn, .highlight .kp, .gist-syntax .highlight .kp, .highlight .kr, .gist-syntax .highlight .kr, .highlight .kv, .gist-syntax .highlight .kv {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .kc, .gist-syntax .highlight .kc {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .kd, .gist-syntax .highlight .kd {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .kt, .gist-syntax .highlight .kt {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .m, .gist-syntax .highlight .m, .highlight .mf, .gist-syntax .highlight .mf, .highlight .mh, .gist-syntax .highlight .mh, .highlight .mi, .gist-syntax .highlight .mi, .highlight .il, .gist-syntax .highlight .il, .highlight .mo, .gist-syntax .highlight .mo, .highlight .mb, .gist-syntax .highlight .mb, .highlight .mx, .gist-syntax .highlight .mx {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .na, .gist-syntax .highlight .na {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .nc, .gist-syntax .highlight .nc {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .nn, .gist-syntax .highlight .nn {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .no, .gist-syntax .highlight .no {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .nt, .gist-syntax .highlight .nt {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .o, .gist-syntax .highlight .o, .highlight .ow, .gist-syntax .highlight .ow {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .p, .gist-syntax .highlight .p, .highlight .pi, .gist-syntax .highlight .pi {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .s, .gist-syntax .highlight .s, .highlight .sb, .gist-syntax .highlight .sb, .highlight .sc, .gist-syntax .highlight .sc, .highlight .sd, .gist-syntax .highlight .sd, .highlight .s2, .gist-syntax .highlight .s2, .highlight .sh, .gist-syntax .highlight .sh, .highlight .sx, .gist-syntax .highlight .sx, .highlight .s1, .gist-syntax .highlight .s1 {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .se, .gist-syntax .highlight .se {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .si, .gist-syntax .highlight .si {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .sr, .gist-syntax .highlight .sr {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight .ss, .gist-syntax .highlight .ss {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight pre {$/;"	c
+.highlight	source/assets/stylesheets/components/_code.scss	/^.highlight, .highlight .w, .gist-syntax .highlight, .gist-syntax .highlight .w {$/;"	c
+.icon-copyright	dist/assets/stylesheets/app.css.css	/^.icon-copyright::before {$/;"	c
+.icon-github	dist/assets/stylesheets/app.css.css	/^.icon-github::before {$/;"	c
+.icon-left-thin	dist/assets/stylesheets/app.css.css	/^.icon-left-thin::before {$/;"	c
+.icon-stackoverflow	dist/assets/stylesheets/app.css.css	/^.icon-stackoverflow::before {$/;"	c
+.icon-twitter	dist/assets/stylesheets/app.css.css	/^.icon-twitter::before {$/;"	c
+.mast	dist/assets/stylesheets/app.css.css	/^    .mast h1 {$/;"	c
+.mast	dist/assets/stylesheets/app.css.css	/^    .mast {$/;"	c
+.mast	dist/assets/stylesheets/app.css.css	/^.mast {$/;"	c
+.mast	source/assets/stylesheets/components/_blog.scss	/^.mast {$/;"	c
+.mast__container	dist/assets/stylesheets/app.css.css	/^  .mast__container {$/;"	c
+.mast__img	dist/assets/stylesheets/app.css.css	/^  .mast__img {$/;"	c
+.nav	dist/assets/stylesheets/app.css.css	/^      .nav span {$/;"	c
+.nav	dist/assets/stylesheets/app.css.css	/^    .nav i {$/;"	c
+.nav	dist/assets/stylesheets/app.css.css	/^    .nav {$/;"	c
+.nav	dist/assets/stylesheets/app.css.css	/^  .nav span {$/;"	c
+.nav	dist/assets/stylesheets/app.css.css	/^.nav {$/;"	c
+.nav	source/assets/stylesheets/components/_blog.scss	/^.nav {$/;"	c
+.nav--black	dist/assets/stylesheets/app.css.css	/^    .nav--black:hover, .nav--black:active, .nav--black:focus {$/;"	c
+.nav--black	dist/assets/stylesheets/app.css.css	/^  .nav--black {$/;"	c
+.nav--white	dist/assets/stylesheets/app.css.css	/^    .nav--white:hover, .nav--white:active, .nav--white:focus {$/;"	c
+.nav--white	dist/assets/stylesheets/app.css.css	/^  .nav--white {$/;"	c
+.next	dist/assets/stylesheets/app.css.css	/^.next {$/;"	c
+.next	source/assets/stylesheets/components/_blog.scss	/^.next {$/;"	c
+.next__container	dist/assets/stylesheets/app.css.css	/^    .next__container span {$/;"	c
+.next__container	dist/assets/stylesheets/app.css.css	/^  .next__container {$/;"	c
+.next__link	dist/assets/stylesheets/app.css.css	/^    .next__link:hover {$/;"	c
+.next__link	dist/assets/stylesheets/app.css.css	/^    .next__link:hover:after {$/;"	c
+.next__link	dist/assets/stylesheets/app.css.css	/^  .next__link {$/;"	c
+.pagination	dist/assets/stylesheets/app.css.css	/^    .pagination > *:hover {$/;"	c
+.pagination	dist/assets/stylesheets/app.css.css	/^  .pagination > * {$/;"	c
+.pagination	dist/assets/stylesheets/app.css.css	/^.pagination {$/;"	c
+.pagination	source/assets/stylesheets/components/_pagination.scss	/^.pagination {$/;"	c
+.post	dist/assets/stylesheets/app.css.css	/^      .post ol > li:before, .post ul > li:before {$/;"	c
+.post	dist/assets/stylesheets/app.css.css	/^      .post ol > li:not(:last-child), .post ul > li:not(:last-child) {$/;"	c
+.post	dist/assets/stylesheets/app.css.css	/^    .post ol > li, .post ul > li {$/;"	c
+.post	dist/assets/stylesheets/app.css.css	/^    .post ol > li:before {$/;"	c
+.post	dist/assets/stylesheets/app.css.css	/^    .post {$/;"	c
+.post	dist/assets/stylesheets/app.css.css	/^  .post > *:last-child {$/;"	c
+.post	dist/assets/stylesheets/app.css.css	/^  .post a {$/;"	c
+.post	dist/assets/stylesheets/app.css.css	/^  .post figcaption {$/;"	c
+.post	dist/assets/stylesheets/app.css.css	/^  .post figure > img {$/;"	c
+.post	dist/assets/stylesheets/app.css.css	/^  .post figure {$/;"	c
+.post	dist/assets/stylesheets/app.css.css	/^  .post h1,$/;"	c
+.post	dist/assets/stylesheets/app.css.css	/^  .post h2 {$/;"	c
+.post	dist/assets/stylesheets/app.css.css	/^  .post img {$/;"	c
+.post	dist/assets/stylesheets/app.css.css	/^  .post ol {$/;"	c
+.post	dist/assets/stylesheets/app.css.css	/^  .post ol, .post ul {$/;"	c
+.post	dist/assets/stylesheets/app.css.css	/^  .post p:first-child {$/;"	c
+.post	dist/assets/stylesheets/app.css.css	/^.post {$/;"	c
+.post	source/assets/stylesheets/components/_blog.scss	/^.post {$/;"	c
+.preview	dist/assets/stylesheets/app.css.css	/^    .preview:hover .preview__more {$/;"	c
+.preview	dist/assets/stylesheets/app.css.css	/^  .preview:hover {$/;"	c
+.preview	dist/assets/stylesheets/app.css.css	/^  .preview:nth-child(even) {$/;"	c
+.preview	dist/assets/stylesheets/app.css.css	/^.preview {$/;"	c
+.preview	source/assets/stylesheets/components/_blog.scss	/^.preview {$/;"	c
+.preview__date	dist/assets/stylesheets/app.css.css	/^  .preview__date {$/;"	c
+.preview__excerpt	dist/assets/stylesheets/app.css.css	/^  .preview__excerpt {$/;"	c
+.preview__header	dist/assets/stylesheets/app.css.css	/^  .preview__header {$/;"	c
+.preview__img	dist/assets/stylesheets/app.css.css	/^  .preview__img {$/;"	c
+.preview__link	dist/assets/stylesheets/app.css.css	/^      .preview__link {$/;"	c
+.preview__link	dist/assets/stylesheets/app.css.css	/^  .preview__link {$/;"	c
+.preview__more	dist/assets/stylesheets/app.css.css	/^  .preview__more {$/;"	c
+.preview__more	source/assets/stylesheets/components/_blog.scss	/^    .preview__more {$/;"	c
+.previews	dist/assets/stylesheets/app.css.css	/^    .previews > *:first-child {$/;"	c
+.previews	dist/assets/stylesheets/app.css.css	/^    .previews > *:last-child {$/;"	c
+.previews	dist/assets/stylesheets/app.css.css	/^  .previews {$/;"	c
+.previews	dist/assets/stylesheets/app.css.css	/^.previews > *:first-child {$/;"	c
+.previews	dist/assets/stylesheets/app.css.css	/^.previews > *:first-child:after, .card__img:after, .mast:after, .profile__img:after, .next__link:after {$/;"	c
+.previews	dist/assets/stylesheets/app.css.css	/^.previews > *:last-child {$/;"	c
+.previews	source/assets/stylesheets/components/_blog.scss	/^.previews {$/;"	c
+.previews	source/assets/stylesheets/layout/_layout.scss	/^.previews {$/;"	c
+.previews__container	dist/assets/stylesheets/app.css.css	/^  .previews__container h1 {$/;"	c
+.previews__container	dist/assets/stylesheets/app.css.css	/^  .previews__container span {$/;"	c
+.previews__container	dist/assets/stylesheets/app.css.css	/^.previews__container {$/;"	c
+.profile	dist/assets/stylesheets/app.css.css	/^    .profile {$/;"	c
+.profile	dist/assets/stylesheets/app.css.css	/^.profile {$/;"	c
+.profile	source/assets/stylesheets/components/_blog.scss	/^.profile {$/;"	c
+.profile__card	dist/assets/stylesheets/app.css.css	/^      .profile__card {$/;"	c
+.profile__card	dist/assets/stylesheets/app.css.css	/^  .profile__card {$/;"	c
+.profile__container	dist/assets/stylesheets/app.css.css	/^      .profile__container {$/;"	c
+.profile__container	dist/assets/stylesheets/app.css.css	/^  .profile__container {$/;"	c
+.profile__img	dist/assets/stylesheets/app.css.css	/^      .profile__img {$/;"	c
+.profile__img	dist/assets/stylesheets/app.css.css	/^  .profile__img {$/;"	c
+.profile__social	dist/assets/stylesheets/app.css.css	/^    .profile__social > *:not(:last-child) {$/;"	c
+.profile__social	dist/assets/stylesheets/app.css.css	/^  .profile__social {$/;"	c
+.section-padding	dist/assets/stylesheets/app.css.css	/^.section-padding {$/;"	c
+.section-padding	source/assets/stylesheets/layout/_layout.scss	/^.section-padding {$/;"	c
+.section-padding--lg	dist/assets/stylesheets/app.css.css	/^  .section-padding--lg {$/;"	c
+.section-padding--sm	dist/assets/stylesheets/app.css.css	/^  .section-padding--sm {$/;"	c
+.tab	dist/assets/stylesheets/app.css.css	/^.tab ul {$/;"	c
+.tab	dist/assets/stylesheets/app.css.css	/^.tab.active {$/;"	c
+.tab	source/assets/stylesheets/components/_tabs.scss	/^.tab {$/;"	c
+.tabs	dist/assets/stylesheets/app.css.css	/^    .tabs {$/;"	c
+.tabs	dist/assets/stylesheets/app.css.css	/^  .tabs ul {$/;"	c
+.tabs	dist/assets/stylesheets/app.css.css	/^.tabs {$/;"	c
+.tabs	dist/assets/stylesheets/app.css.css	/^.tabs, .card__more, .previews__container span, .preview__more, .nav, .next__container span, .pagination, .archives__header, .footer__archive {$/;"	c
+.tabs	source/assets/stylesheets/components/_tabs.scss	/^.tabs {$/;"	c
+.tabs__item	dist/assets/stylesheets/app.css.css	/^      .tabs__item:not(.active):after {$/;"	c
+.tabs__item	dist/assets/stylesheets/app.css.css	/^      .tabs__item:not(.active):hover:after {$/;"	c
+.tabs__item	dist/assets/stylesheets/app.css.css	/^    .tabs__item.active {$/;"	c
+.tabs__item	dist/assets/stylesheets/app.css.css	/^    .tabs__item.not-active {$/;"	c
+.tabs__item	dist/assets/stylesheets/app.css.css	/^    .tabs__item:not(.active) {$/;"	c
+.tabs__item	dist/assets/stylesheets/app.css.css	/^  .tabs__item {$/;"	c
+@-webkit-keyframes	dist/assets/stylesheets/app.css.css	/^@-webkit-keyframes fade-in {$/;"	v
+@charset	source/assets/stylesheets/app.css.scss	/^@charset 'utf-8';$/;"	v
+@extend	source/assets/stylesheets/base/_mixins.scss	/^  @extend %letter-spacing;$/;"	v
+@extend	source/assets/stylesheets/components/_archives.scss	/^    @extend %letter-spacing;$/;"	v
+@extend	source/assets/stylesheets/components/_blog.scss	/^      @extend %letter-spacing;$/;"	v
+@extend	source/assets/stylesheets/components/_blog.scss	/^      @extend %overlay;$/;"	v
+@extend	source/assets/stylesheets/components/_blog.scss	/^    @extend %overlay;$/;"	v
+@extend	source/assets/stylesheets/components/_blog.scss	/^  @extend %letter-spacing;$/;"	v
+@extend	source/assets/stylesheets/components/_footer.scss	/^    @extend %letter-spacing;$/;"	v
+@extend	source/assets/stylesheets/components/_pagination.scss	/^  @extend %letter-spacing;$/;"	v
+@extend	source/assets/stylesheets/components/_tabs.scss	/^  @extend %letter-spacing;$/;"	v
+@extend	source/assets/stylesheets/components/_works.scss	/^      @extend %overlay;$/;"	v
+@extend	source/assets/stylesheets/layout/_layout.scss	/^        @extend %overlay;$/;"	v
+@font-face	dist/assets/stylesheets/app.css.css	/^@font-face {$/;"	v
+@if	source/assets/stylesheets/base/_mixins.scss	/^    @if $lg {$/;"	v
+@if	source/assets/stylesheets/base/_mixins.scss	/^    @if $xl {$/;"	v
+@if	source/assets/stylesheets/base/_mixins.scss	/^    @if $xxl {$/;"	v
+@import	dist/assets/stylesheets/app.css.css	/^@import url(https:\/\/fonts.googleapis.com\/css?family=Inconsolata|Lora|Space+Mono:700);$/;"	v
+@import	source/assets/stylesheets/app.css.scss	/^@import$/;"	v
+@import	source/assets/stylesheets/base/_base.scss	/^@import url(https:\/\/fonts.googleapis.com\/css?family=Inconsolata|Lora|Space+Mono:700);$/;"	v
+@include	source/assets/stylesheets/components/_archives.scss	/^    @include flex-grid(1, 2, 3, $xxl: 4, $pad: 0.25em);$/;"	v
+@include	source/assets/stylesheets/components/_blog.scss	/^    @include box-shadow(1px);$/;"	v
+@include	source/assets/stylesheets/components/_blog.scss	/^    @include button-slide();$/;"	v
+@include	source/assets/stylesheets/components/_footer.scss	/^    @include border-slide();$/;"	v
+@include	source/assets/stylesheets/components/_tabs.scss	/^      @include border-slide();$/;"	v
+@include	source/assets/stylesheets/components/_works.scss	/^      @include box-shadow(3px);$/;"	v
+@include	source/assets/stylesheets/components/_works.scss	/^    @include box-shadow(1px);$/;"	v
+@include	source/assets/stylesheets/components/_works.scss	/^    @include button-slide(.25em);$/;"	v
+@include	source/assets/stylesheets/components/_works.scss	/^  @include flex-grid(1, 2, $xxl: 3, $pad: .25em);$/;"	v
+@keyframes	dist/assets/stylesheets/app.css.css	/^@keyframes fade-in {$/;"	v
+@keyframes	source/assets/stylesheets/helpers/_animations.scss	/^@keyframes fade-in {$/;"	v
+@media	dist/assets/stylesheets/app.css.css	/^    @media (min-width: 114em) {$/;"	v
+@media	dist/assets/stylesheets/app.css.css	/^    @media (min-width: 30em) {$/;"	v
+@media	dist/assets/stylesheets/app.css.css	/^    @media (min-width: 54em) {$/;"	v
+@media	dist/assets/stylesheets/app.css.css	/^    @media (min-width: 64em) {$/;"	v
+@media	dist/assets/stylesheets/app.css.css	/^  @media (min-width: 114em) {$/;"	v
+@media	dist/assets/stylesheets/app.css.css	/^  @media (min-width: 20em) {$/;"	v
+@media	dist/assets/stylesheets/app.css.css	/^  @media (min-width: 30em) {$/;"	v
+@media	dist/assets/stylesheets/app.css.css	/^  @media (min-width: 54em) {$/;"	v
+@media	dist/assets/stylesheets/app.css.css	/^  @media (min-width: 64em) {$/;"	v
+@media	dist/assets/stylesheets/app.css.css	/^  @media (min-width: 76.5em) {$/;"	v
+@media	dist/assets/stylesheets/app.css.css	/^@media (max-width: 54em) {$/;"	v
+@media	dist/assets/stylesheets/app.css.css	/^@media (min-width: 54em) {$/;"	v
+@media	dist/assets/stylesheets/app.css.css	/^@media (min-width: 76.5em) {$/;"	v
+@media	source/assets/stylesheets/base/_base.scss	/^  @media (min-width: $mq-lg) {$/;"	v
+@media	source/assets/stylesheets/base/_base.scss	/^  @media (min-width: $mq-md) {$/;"	v
+@media	source/assets/stylesheets/base/_base.scss	/^  @media (min-width: $mq-sm) {$/;"	v
+@media	source/assets/stylesheets/base/_base.scss	/^  @media (min-width: $mq-xl) {$/;"	v
+@media	source/assets/stylesheets/base/_base.scss	/^  @media (min-width: $mq-xs) {$/;"	v
+@media	source/assets/stylesheets/base/_base.scss	/^  @media (min-width: $mq-xxl) {$/;"	v
+@media	source/assets/stylesheets/base/_mixins.scss	/^      @media (min-width: $mq-lg) {$/;"	v
+@media	source/assets/stylesheets/base/_mixins.scss	/^      @media (min-width: $mq-xl) {$/;"	v
+@media	source/assets/stylesheets/base/_mixins.scss	/^      @media (min-width: $mq-xxl) {$/;"	v
+@media	source/assets/stylesheets/base/_mixins.scss	/^    @media (min-width: $mq-md) {$/;"	v
+@media	source/assets/stylesheets/components/_about.scss	/^  @media (min-width: $mq-md) {$/;"	v
+@media	source/assets/stylesheets/components/_blog.scss	/^    @media (min-width: $mq-md) {$/;"	v
+@media	source/assets/stylesheets/components/_blog.scss	/^    @media (min-width: $mq-sm) {$/;"	v
+@media	source/assets/stylesheets/components/_blog.scss	/^    @media (min-width: $mq-xxl) {$/;"	v
+@media	source/assets/stylesheets/components/_blog.scss	/^  @media (min-width: $mq-lg) {$/;"	v
+@media	source/assets/stylesheets/components/_blog.scss	/^  @media (min-width: $mq-md) {$/;"	v
+@media	source/assets/stylesheets/components/_blog.scss	/^  @media (min-width: $mq-sm) {$/;"	v
+@media	source/assets/stylesheets/components/_footer.scss	/^    @media (min-width: $mq-sm) {$/;"	v
+@media	source/assets/stylesheets/components/_footer.scss	/^  @media (min-width: $mq-sm) {$/;"	v
+@media	source/assets/stylesheets/components/_tabs.scss	/^  @media (min-width: $mq-md) {$/;"	v
+@media	source/assets/stylesheets/components/_tabs.scss	/^  @media (min-width: $mq-xxl) {$/;"	v
+@media	source/assets/stylesheets/components/_works.scss	/^  @media (min-width: $mq-md) {$/;"	v
+@media	source/assets/stylesheets/layout/_layout.scss	/^      @media (min-width: $mq-md) {$/;"	v
+@media	source/assets/stylesheets/layout/_layout.scss	/^  @media (max-width: $mq-md) {$/;"	v
+@mixin	source/assets/stylesheets/base/_mixins.scss	/^@mixin border-slide($mainColor: $color-black, $borderColor: $color-alpha, $height: 3px) {$/;"	v
+@mixin	source/assets/stylesheets/base/_mixins.scss	/^@mixin box-shadow($size, $color: $color-black) {$/;"	v
+@mixin	source/assets/stylesheets/base/_mixins.scss	/^@mixin button-slide($pad: 0.5em, $border: 3px) {$/;"	v
+@mixin	source/assets/stylesheets/base/_mixins.scss	/^@mixin flex-grid($sm: null, $md: null, $lg: null, $xl: null, $xxl: null, $pad: 0) {$/;"	v
+ApplicationHelpers	helpers/application_helpers.rb	/^module ApplicationHelpers$/;"	m
+ENV	gulpfile.js/lib/__tests__/getEnabledTasks.test.js	/^      ENV = 'development'$/;"	n
+ENV	gulpfile.js/lib/__tests__/getEnabledTasks.test.js	/^      ENV = 'production'$/;"	n
+MetaTagsHelpers	helpers/meta_tags_helpers.rb	/^module MetaTagsHelpers$/;"	m
+PageHelpers	helpers/page_helpers.rb	/^module PageHelpers$/;"	m
+TASK_CONFIG	gulpfile.js/lib/__tests__/getEnabledTasks.test.js	/^        TASK_CONFIG = {$/;"	n
+WorksHelpers	helpers/works_helpers.rb	/^module WorksHelpers$/;"	m
+a	dist/assets/stylesheets/app.css.css	/^a {$/;"	t
+a	source/assets/stylesheets/base/_base.scss	/^a {$/;"	t
+a	source/assets/stylesheets/components/_blog.scss	/^  a {$/;"	t
+about	data/site.yml	/^  - name: about$/;"	t
+blockquote	dist/assets/stylesheets/app.css.css	/^blockquote {$/;"	t
+blockquote	source/assets/stylesheets/components/_blockquote.scss	/^blockquote {$/;"	t
+body	dist/assets/stylesheets/app.css.css	/^    body {$/;"	t
+body	dist/assets/stylesheets/app.css.css	/^body {$/;"	t
+body	source/assets/stylesheets/base/_base.scss	/^body {$/;"	t
+body	source/assets/stylesheets/layout/_layout.scss	/^body {$/;"	t
+canvas	dist/assets/stylesheets/app.css.css	/^canvas {$/;"	t
+cite	dist/assets/stylesheets/app.css.css	/^cite {$/;"	t
+cite	source/assets/stylesheets/base/_base.scss	/^cite {$/;"	t
+code	source/assets/stylesheets/components/_code.scss	/^  code {$/;"	t
+current_page_url	helpers/page_helpers.rb	/^  def current_page_url$/;"	f	class:PageHelpers
+dfn	dist/assets/stylesheets/app.css.css	/^dfn {$/;"	t
+dhat board	data/works.yml	/^    - name: dhat board$/;"	t
+dhat team	data/works.yml	/^    - name: dhat team$/;"	t
+facebook_url	helpers/page_helpers.rb	/^  def facebook_url$/;"	f	class:PageHelpers
+fieldset	dist/assets/stylesheets/app.css.css	/^fieldset {$/;"	t
+figcaption	source/assets/stylesheets/components/_blog.scss	/^  figcaption {$/;"	t
+figure	dist/assets/stylesheets/app.css.css	/^figure {$/;"	t
+figure	source/assets/stylesheets/base/_base.scss	/^figure {$/;"	t
+figure	source/assets/stylesheets/components/_blog.scss	/^  figure {$/;"	t
+from	dist/assets/stylesheets/app.css.css	/^  from {$/;"	t
+from	source/assets/stylesheets/helpers/_animations.scss	/^  from { opacity: 0; }$/;"	t
+google_plus_url	helpers/page_helpers.rb	/^  def google_plus_url$/;"	f	class:PageHelpers
+h1	dist/assets/stylesheets/app.css.css	/^  h1 {$/;"	t
+h1	dist/assets/stylesheets/app.css.css	/^h1 {$/;"	t
+h1	source/assets/stylesheets/base/_base.scss	/^h1 {$/;"	t
+h1	source/assets/stylesheets/components/_blog.scss	/^    h1 {$/;"	t
+h1	source/assets/stylesheets/components/_blog.scss	/^  h1 {$/;"	t
+h1, h2, h3, h4, h5, h6	dist/assets/stylesheets/app.css.css	/^h1, h2, h3, h4, h5, h6 {$/;"	t
+h1, h2, h3, h4, h5, h6	source/assets/stylesheets/base/_base.scss	/^h1, h2, h3, h4, h5, h6 {$/;"	t
+h2	dist/assets/stylesheets/app.css.css	/^    h2 {$/;"	t
+h2	dist/assets/stylesheets/app.css.css	/^h2 {$/;"	t
+h2	source/assets/stylesheets/base/_base.scss	/^h2 {$/;"	t
+h2	source/assets/stylesheets/components/_blog.scss	/^  h2 {$/;"	t
+h3	dist/assets/stylesheets/app.css.css	/^h3 {$/;"	t
+h3	source/assets/stylesheets/base/_base.scss	/^h3 {$/;"	t
+h4	dist/assets/stylesheets/app.css.css	/^h4 {$/;"	t
+h4	source/assets/stylesheets/base/_base.scss	/^h4 {$/;"	t
+hr	dist/assets/stylesheets/app.css.css	/^hr {$/;"	t
+html	dist/assets/stylesheets/app.css.css	/^html {$/;"	t
+i	source/assets/stylesheets/components/_blog.scss	/^  i {$/;"	t
+img	dist/assets/stylesheets/app.css.css	/^img {$/;"	t
+img	source/assets/stylesheets/base/_base.scss	/^img {$/;"	t
+img	source/assets/stylesheets/components/_blog.scss	/^  img {$/;"	t
+input	dist/assets/stylesheets/app.css.css	/^input {$/;"	t
+legend	dist/assets/stylesheets/app.css.css	/^legend {$/;"	t
+linkedin_url	helpers/page_helpers.rb	/^  def linkedin_url$/;"	f	class:PageHelpers
+main	dist/assets/stylesheets/app.css.css	/^main {$/;"	t
+mark	dist/assets/stylesheets/app.css.css	/^mark {$/;"	t
+markdown	helpers/application_helpers.rb	/^  def markdown(contents)$/;"	f	class:ApplicationHelpers
+menu	dist/assets/stylesheets/app.css.css	/^menu {$/;"	t
+meta_tags_description	helpers/meta_tags_helpers.rb	/^  def meta_tags_description$/;"	f	class:MetaTagsHelpers
+meta_tags_keywords	helpers/meta_tags_helpers.rb	/^  def meta_tags_keywords$/;"	f	class:MetaTagsHelpers
+meta_tags_name	helpers/meta_tags_helpers.rb	/^  def meta_tags_name$/;"	f	class:MetaTagsHelpers
+meta_tags_page_title	helpers/meta_tags_helpers.rb	/^  def meta_tags_page_title$/;"	f	class:MetaTagsHelpers
+meta_tags_title	helpers/meta_tags_helpers.rb	/^  def meta_tags_title$/;"	f	class:MetaTagsHelpers
+nodejs api	data/works.yml	/^    - name: nodejs api$/;"	t
+notes	data/site.yml	/^  - name: notes$/;"	t
+ol	source/assets/stylesheets/components/_blog.scss	/^  ol {$/;"	t
+ol, ul	dist/assets/stylesheets/app.css.css	/^ol, ul {$/;"	t
+ol, ul	source/assets/stylesheets/base/_base.scss	/^ol, ul {$/;"	t
+ol, ul	source/assets/stylesheets/components/_blog.scss	/^  ol, ul {$/;"	t
+p	dist/assets/stylesheets/app.css.css	/^p {$/;"	t
+p	source/assets/stylesheets/base/_base.scss	/^p {$/;"	t
+p a	dist/assets/stylesheets/app.css.css	/^p a {$/;"	t
+p a	source/assets/stylesheets/base/_base.scss	/^p a {$/;"	t
+page_active?	helpers/application_helpers.rb	/^  def page_active?(page)$/;"	f	class:ApplicationHelpers
+page_description	helpers/page_helpers.rb	/^  def page_description$/;"	f	class:PageHelpers
+page_image	helpers/page_helpers.rb	/^  def page_image$/;"	f	class:PageHelpers
+page_title	helpers/page_helpers.rb	/^  def page_title$/;"	f	class:PageHelpers
+page_twitter_card_type	helpers/page_helpers.rb	/^  def page_twitter_card_type$/;"	f	class:PageHelpers
+page_url	helpers/page_helpers.rb	/^  def page_url page$/;"	f	class:PageHelpers
+page_works	helpers/works_helpers.rb	/^  def page_works$/;"	f	class:WorksHelpers
+pre	dist/assets/stylesheets/app.css.css	/^pre {$/;"	t
+pre code	dist/assets/stylesheets/app.css.css	/^pre code {$/;"	t
+pre code	source/assets/stylesheets/components/_code.scss	/^pre code {$/;"	t
+progress	dist/assets/stylesheets/app.css.css	/^progress {$/;"	t
+reading_time	lib/reading_time.rb	/^def reading_time(input)$/;"	f
+samp	dist/assets/stylesheets/app.css.css	/^samp {$/;"	t
+section	dist/assets/stylesheets/app.css.css	/^section {$/;"	t
+section	source/assets/stylesheets/layout/_layout.scss	/^section {$/;"	t
+select	dist/assets/stylesheets/app.css.css	/^select {$/;"	t
+small	dist/assets/stylesheets/app.css.css	/^small {$/;"	t
+span	source/assets/stylesheets/components/_archives.scss	/^    span {$/;"	t
+span	source/assets/stylesheets/components/_blog.scss	/^    span {$/;"	t
+span	source/assets/stylesheets/components/_blog.scss	/^  span {$/;"	t
+strong	dist/assets/stylesheets/app.css.css	/^strong {$/;"	t
+sub	dist/assets/stylesheets/app.css.css	/^sub {$/;"	t
+summary	dist/assets/stylesheets/app.css.css	/^summary {$/;"	t
+sup	dist/assets/stylesheets/app.css.css	/^sup {$/;"	t
+svg	helpers/application_helpers.rb	/^  def svg(name)$/;"	f	class:ApplicationHelpers
+table	dist/assets/stylesheets/app.css.css	/^table {$/;"	t
+table	source/assets/stylesheets/components/_table.scss	/^table {$/;"	t
+template	dist/assets/stylesheets/app.css.css	/^template {$/;"	t
+textarea	dist/assets/stylesheets/app.css.css	/^textarea {$/;"	t
+th	dist/assets/stylesheets/app.css.css	/^th {$/;"	t
+th	source/assets/stylesheets/components/_table.scss	/^th {$/;"	t
+thead	dist/assets/stylesheets/app.css.css	/^thead {$/;"	t
+thead	source/assets/stylesheets/components/_table.scss	/^thead {$/;"	t
+to	dist/assets/stylesheets/app.css.css	/^  to {$/;"	t
+to	source/assets/stylesheets/helpers/_animations.scss	/^  to { opacity: 1; }$/;"	t
+twitter_url	helpers/page_helpers.rb	/^  def twitter_url$/;"	f	class:PageHelpers
+ul	source/assets/stylesheets/components/_tabs.scss	/^  ul {$/;"	t
+video	dist/assets/stylesheets/app.css.css	/^video {$/;"	t
+vue newz	data/works.yml	/^    - name: vue newz$/;"	t
+works	data/site.yml	/^  - name: works$/;"	t

@@ -1,12 +1,12 @@
-# Ignore bundler config
-/.bundle
-
-# Ignore the build directory
-/build
-
-# Ignore cache
-/.sass-cache
-/.cache
-
 node_modules
-.tmp
+yarn.lock
+Gemfile.lock
+.git
+.sass-cache
+.bundle
+.cache
+data
+source
+config.rb
+bin
+build

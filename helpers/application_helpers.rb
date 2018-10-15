@@ -15,16 +15,14 @@ module ApplicationHelpers
     markdown.render(contents)
   end
 
-  def svg(name)
-    root = Middleman::Application.root
-    images_path = config[:images_dir]
-    file_path = "#{root}/source/#{images_path}/#{name}.svg"
-
-    return File.read(file_path) if File.exist?(file_path)
-    '(SVG not found)'
-  end
-
-  def page_active?(page)
-    current_page.url == page ? 'active' : ''
+  def smart_robots(path, env)
+    # add paths (such as "thank you" pages) that search engines should not index.
+    # multiple paths look like this:
+    # /first_path|another_path|yet_another/
+    if !!(path =~ /thanks/) || env != "production"
+      "noindex, nofollow"
+    else
+      "index, follow"
+    end
   end
 end

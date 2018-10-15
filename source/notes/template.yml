@@ -1,9 +1,0 @@
----
-title: <%= @title %>
-author:
-date: <%= @date.strftime('%b %e %Y') %>
-category:
-excerpt:
-tags:
-image:
----
