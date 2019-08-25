@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.5.1'
+ruby '2.6.3'
 
 # core
 gem 'middleman', '~> 4.2'
@@ -18,6 +18,7 @@ gem 'middleman-syntax'
 
 # templating engine
 gem 'oga', '~> 2.2'
+gem 'rake'
 gem 'redcarpet', '~> 3.4'
 gem 'sass', '~> 3.4'
 
