@@ -10,3 +10,4 @@ source
 config.rb
 bin
 build
+/vendor/bundle
