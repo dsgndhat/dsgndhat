@@ -73,7 +73,7 @@
   "devDependencies": {
     "aos": "^2.3.4",
     "chai": "^4.1.2",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "mocha": "^6.2.0",
     "moment": "^2.22.1",
     "salvattore": "^1.0.9",
