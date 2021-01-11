@@ -19,7 +19,7 @@ gem 'middleman-syntax'
 # templating engine
 gem 'oga', '~> 2.2'
 gem 'rake'
-gem 'redcarpet', '~> 3.4'
+gem 'redcarpet', '~> 3.5'
 gem 'sass', '~> 3.4'
 
 # deploy
